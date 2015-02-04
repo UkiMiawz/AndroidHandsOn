@@ -46,7 +46,6 @@ public class MainActivity extends Activity implements View.OnClickListener, Adap
         //access the textview defined in layout xml
         //and then set its text
         mainTextView = (TextView) findViewById(R.id.main_textview);
-        mainTextView.setText("Howdy! Set in Java!");
 
         Button mainButton;
         //access the button defined in layout xml
